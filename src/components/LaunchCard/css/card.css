@@ -87,7 +87,7 @@ span {
   margin: 1rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
   .page-container {
     flex-direction: column;
   }
