@@ -2,7 +2,6 @@ import React from "react";
 import "./css/card.css";
 
 function CardDetail({ data }) {
-  console.log(data.rocket.first_stage.cores);
   return (
     <div className="card-item">
       <div className="card-container">
