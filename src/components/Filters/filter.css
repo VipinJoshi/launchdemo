@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  text-align: left;
+  background-color: white;
+  margin-left: 34px;
+}
+
+.filter-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-item {
+  width: 15rem;
+  max-width: 85%;
+  margin: 1rem;
+}
+
+.heading {
+  padding-top: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.subheading {
+  text-align: center;
+}
+.underline {
+  border-bottom: 1px solid #aaa;
+  margin-left: 30px;
+  margin-right: 30px;
+  // margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*this will be used in filter */
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  /*  add */
+  padding: 3px 12px;
+  font-size: 1.313em;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.3s ease 0s;
+  margin: 4px 2px;
+  margin-left: 13px; /*apply gap */
+}
+
+.btn-primary {
+  background: #8dc63f;
+  border-color: #8dc63f;
+  color: white;
+}
+
+.btn-secondary {
+  background: blue;
+  border-color: blue;
+  color: white;
+}
