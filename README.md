@@ -1,3 +1,3 @@
 # launchdemo
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/launchdemo)
+This is Launch Demo with card display.

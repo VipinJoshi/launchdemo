@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  text-align: center;
+}
+.heading {
+  font-weight: bold;
+}
+
+.developerName {
+  color: black;
+  font-weight: lighter;
+}
