@@ -21,7 +21,7 @@ function CardDetail({ data }) {
           {data?.mission_id?.length > 0 &&
             data.mission_id.map((item, index) => {
               return (
-                <ul>
+                <ul key={item}>
                   <li key={index}>{item}</li>
                 </ul>
               );
