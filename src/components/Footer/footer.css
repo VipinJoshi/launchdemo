@@ -1,12 +1,21 @@
 .footer {
-  width: 100%;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.heading {
+
+.footer-title {
   font-weight: bold;
 }
 
 .developerName {
   color: black;
   font-weight: lighter;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
 }

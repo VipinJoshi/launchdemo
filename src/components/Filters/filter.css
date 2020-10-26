@@ -1,21 +1,27 @@
-.filter-container {
+/* .filter-container {
   width: 100%;
   text-align: center;
   margin-bottom: 10px;
+} */
+
+.filter-container {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .container {
-  width: 100%;
-  height: auto;
+  height: 600px;
   border-radius: 4px;
-  text-align: left;
   background-color: white;
+  padding-right: 10px;
 }
 
 .filter-item {
-  width: 15rem;
-  margin-top: 1rem;
-  margin-left: 15px;
+  width: 16rem;
+  margin-right: 15px;
+  text-align: left;
 }
 
 .heading {
@@ -68,4 +74,8 @@
 }
 
 @media screen and (max-width: 700px) {
+  .filter-item {
+    margin-right: 0;
+    flex: 1;
+  }
 }

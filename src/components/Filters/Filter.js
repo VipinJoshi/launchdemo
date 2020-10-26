@@ -6,21 +6,23 @@ function Filter({ title, filterCollection, onFilterChange }) {
     onFilterChange(value);
   }
   return (
-    <div className="filter-container">
+    <>
       <div className="subheading">{title}</div>
       <div className="underline" />
-      {filterCollection.map(item => {
-        return (
-          <button
-            className="btn btn-primary"
-            onClick={() => onButtonClick(item)}
-            key={item}
-          >
-            {item}
-          </button>
-        );
-      })}
-    </div>
+      <div className="filter-container">
+        {filterCollection.map(item => {
+          return (
+            <button
+              className="btn btn-primary"
+              onClick={() => onButtonClick(item)}
+              key={item}
+            >
+              {item}
+            </button>
+          );
+        })}
+      </div>
+    </>
   );
 }
 

@@ -4,10 +4,8 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <div className="heading">
-        Developed by:{" "}
-        <span className="developerName">Vipin Chandra Joshi </span>
-      </div>
+      <div className="footer-title">Developed by:</div>
+      <div className="developerName">Vipin Chandra Joshi </div>
     </div>
   );
 }
