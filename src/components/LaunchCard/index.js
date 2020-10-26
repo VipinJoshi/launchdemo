@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Filters from "./../Filters";
 import CardDetail from "./CardDetail";
-import "./css/card.css";
+import "./card.css";
 
 class LaunchCard extends Component {
   constructor(props) {
