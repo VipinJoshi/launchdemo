@@ -40,24 +40,28 @@ class LaunchCard extends Component {
     const { loading, data } = this.state;
 
     return (
-      <div className="page-container">
-        <div>
-          <Filters onFilter={query => this.onFilterChange(query)} />
+      <>
+        <h2>SpaceX Launch Programs </h2>
+
+        <div className="page-container">
+          <div>
+            <Filters onFilter={query => this.onFilterChange(query)} />
+          </div>
+          <div className="">
+            {loading && <div>loading....</div>}
+            {data && (
+              <div className="grid">
+                {data.map((item, index) => (
+                  <CardDetail
+                    data={item}
+                    key={`${index}_${item.flight_number}`}
+                  />
+                ))}
+              </div>
+            )}
+          </div>
         </div>
-        <div className="">
-          {loading && <div>loading....</div>}
-          {data && (
-            <div className="grid">
-              {data.map((item, index) => (
-                <CardDetail
-                  data={item}
-                  key={`${index}_${item.flight_number}`}
-                />
-              ))}
-            </div>
-          )}
-        </div>
-      </div>
+      </>
     );
   }
 }

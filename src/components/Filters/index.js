@@ -50,7 +50,7 @@ function Filters({ onFilter }) {
   }, [yearFilter, succesLaunchFilter, succesLandFilter]);
 
   return (
-    <div className="card-item">
+    <div className="filter-item">
       <div className="container">
         <div className="heading"> Filters </div>
         <Filter
