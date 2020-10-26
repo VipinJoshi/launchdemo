@@ -2,6 +2,8 @@
 
 This is Launch Demo with card display.
 
+I have created it in stackblitz and is working on chrome and firefox. For IE https://stackblitz.com/ is not opening for me so I don't think hosted app will work here.
+
 Disign is based on flex model and it is responsive and media query is used to manage Filter component. I tried not to over exppoit media query and flex based design manage that.
 
 I have used class component for Launch card just sake of using it. That can also be done with functional component
