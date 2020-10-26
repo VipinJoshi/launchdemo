@@ -14,6 +14,7 @@ function Filter({ title, filterCollection, onFilterChange }) {
           <button
             className="btn btn-primary"
             onClick={() => onButtonClick(item)}
+            key={item}
           >
             {item}
           </button>
